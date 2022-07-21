@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>927115451</fileChecksum>
+    <configuration>
+        <name>reb1_va108xx</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\common\hdr\core_cm0.h</file>
+            <file>$PROJ_DIR$\..\..\common\hdr\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\..\common\src\irq_va108xx.c</file>
+            <file>$PROJ_DIR$\startup_IAR_va108xx.s</file>
+            <file>$PROJ_DIR$\..\..\common\hdr\irq_va108xx.h</file>
+            <file>$PROJ_DIR$\..\..\common\src\system_va108xx.c</file>
+            <file>$PROJ_DIR$\..\..\common\src\hardfault_handler.c</file>
+            <file>$PROJ_DIR$\..\..\common\hdr\system_va108xx.h</file>
+            <file>$PROJ_DIR$\..\..\common\hdr\va108xx.h</file>
+            <file>$PROJ_DIR$\src\integration_main.c</file>
+            <file>$PROJ_DIR$\..\..\common\hdr\cmsis_armcc.h</file>
+            <file>$PROJ_DIR$\hdr\mcp3208.h</file>
+            <file>$PROJ_DIR$\src\pp_adc.c</file>
+            <file>$PROJ_DIR$\..\..\common\hdr\core_cmInstr.h</file>
+            <file>$PROJ_DIR$\src\pp_timer_v2.0.c</file>
+            <file>$PROJ_DIR$\hdr\pp_timer_v2.0.h</file>
+            <file>$PROJ_DIR$\hdr\pp_spi_v2.0.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\spi_drv_api.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\pp_adc.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\common\system_va108xx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities\segger_rtt_printf.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yfuns.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\spi_va108xx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities\SEGGER_RTT_Syscalls_IAR.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\Vorago\va108xx.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\uart_drv_api.o</file>
+            <file>$PROJ_DIR$\Debug\List\template_project.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\reb_timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\pp_i2c_a.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iar_intrinsics_common.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tlf.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\i2c_drv_api.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\common\irq_va108xx.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\pp_timer_v2.0.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\common\startup_IAR_va108xx.o</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities\utils.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities\segger_rtt.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\reb_adt75.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\integration_main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\sleep.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\driver.common.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\pp_spi_v2.0.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\utilities\redirect.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\common\hardfault_handler.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\pp_i2c_b.o</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\template_project.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\reb_log.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\common\startup_IAR_va108xx.o.rsp</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\gpio_drv_api.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\..\driver\src\driver.common.c</file>
+            <file>$PROJ_DIR$\..\..\driver\src\gpio_va108xx.c</file>
+            <file>$PROJ_DIR$\..\..\driver\src\uart_va108xx.c</file>
+            <file>$PROJ_DIR$\hdr\reb_timer.h</file>
+            <file>$PROJ_DIR$\..\..\utilities\hdr\redirect.h</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\uart_va108xx.h</file>
+            <file>$PROJ_DIR$\hdr\reb_adt75.h</file>
+            <file>$PROJ_DIR$\src\reb_max11619.c</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\driver_common.h</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\driver_i2c.h</file>
+            <file>$PROJ_DIR$\..\..\driver\src\gpio_drv_api.c</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\gpio_va108xx.h</file>
+            <file>$PROJ_DIR$\hdr\sleep.h</file>
+            <file>$PROJ_DIR$\..\..\utilities\src\segger_rtt.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\hdr\segger_rtt.h</file>
+            <file>$PROJ_DIR$\..\..\utilities\src\segger_rtt_printf.c</file>
+            <file>$PROJ_DIR$\src\reb_adt75.c</file>
+            <file>$PROJ_DIR$\hdr\reb_board.h</file>
+            <file>$PROJ_DIR$\..\..\driver\src\i2c_va108xx.c</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\spi_va108xx.h</file>
+            <file>$PROJ_DIR$\..\..\utilities\src\utils.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\hdr\utils.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\i2c_va108xx.o</file>
+            <file>$PROJ_DIR$\hdr\reb_log.h</file>
+            <file>$PROJ_DIR$\src\reb_timer.c</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\driver_uart.h</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\driver_spi.h</file>
+            <file>$PROJ_DIR$\..\..\driver\src\uart_drv_api.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\src\redirect.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\hdr\segger_rtt_conf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\limits.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\uart_va108xx.o</file>
+            <file>$PROJ_DIR$\hdr\reb_max11619.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\driver\gpio_va108xx.o</file>
+            <file>$PROJ_DIR$\..\..\driver\src\spi_drv_api.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\custom\reb_max11619.o</file>
+            <file>$PROJ_DIR$\src\sleep.c</file>
+            <file>$PROJ_DIR$\..\..\utilities\src\SEGGER_RTT_Syscalls_IAR.c</file>
+            <file>$PROJ_DIR$\..\..\driver\src\i2c_drv_api.c</file>
+            <file>$PROJ_DIR$\src\reb_log.c</file>
+            <file>$PROJ_DIR$\..\..\driver\src\spi_va108xx.c</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\i2c_va108xx.h</file>
+            <file>$PROJ_DIR$\..\..\driver\hdr\driver_gpio.h</file>
+            <file>$PROJ_DIR$\src\pp_i2c_a.c</file>
+            <file>$PROJ_DIR$\src\pp_spi_v2.0.c</file>
+            <file>$PROJ_DIR$\hdr\pp_adc.h</file>
+            <file>$PROJ_DIR$\hdr\pp_i2c_a.h</file>
+            <file>$PROJ_DIR$\src\pp_i2c_b.c</file>
+            <file>$PROJ_DIR$\hdr\pp_i2c_b.h</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\common\src\irq_va108xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 100 27 20 0 1 13 4 7 8 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_IAR_va108xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 48</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 66</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\common\src\system_va108xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 100 27 20 0 1 13 7 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\common\src\hardfault_handler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 100 52 27 43 20 0 1 13 7 8</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\integration_main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 47 33 36 23 67 29 59 100 52 69 18 27 43 20 0 1 13 4 7 8 78 113 81 99 84 116 16 15 76 87 93 103 73 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\pp_adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 47 33 36 23 67 29 59 100 52 69 18 27 43 20 0 1 13 4 7 8 78 113 81 99 84 116 117 119 76 87 93 103 73</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\pp_timer_v2.0.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 47 33 23 29 100 52 18 27 43 20 0 1 13 4 7 8 87 73</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\template_project.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 30 38 49 63 44 61 42 48 21 55 19 35 62 58 45 53 65 106 34 56 57 68 104 39 92 17 26 31 102 28 60 51 24 50</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\driver.common.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 59 100 27 43 20 0 1 13 7 8 78</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\gpio_va108xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 59 100 27 43 20 0 1 13 4 7 8 78 113 81 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\uart_va108xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 47 33 23 29 59 100 18 27 43 20 0 1 13 4 7 8 78 95 75 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\reb_max11619.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 59 100 27 43 20 0 1 13 7 8 78 96 103</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\gpio_drv_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 59 100 27 43 20 0 1 13 7 8 78 113 81 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\src\segger_rtt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 47 36 23 67 18 27 43 20 84 99</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\src\segger_rtt_printf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 36 23 67 37 69 27 43 20 84 99</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\reb_adt75.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 29 59 100 27 43 20 78 79 76</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\i2c_va108xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 47 33 23 29 59 100 52 69 18 27 43 20 0 1 13 4 7 8 78 79 112 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\src\utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 33 23 100 52 69 27 43 20 8 0 1 13 7 91</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\reb_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 100 27 20 0 1 13 4 7 8 87 73</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\uart_drv_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 59 100 27 43 20 0 1 13 7 8 78 95 75 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\src\redirect.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 100 52 27 43 20 0 1 13 7 8 74</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\spi_drv_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 59 100 27 43 20 0 1 13 7 8 78 96 89 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\sleep.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 100 27 20 0 1 13 7 8 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\utilities\src\SEGGER_RTT_Syscalls_IAR.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 46 36 23 67 27 25 43 20 84 99</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\i2c_drv_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 23 29 59 100 27 43 20 0 1 13 7 8 78 79 112 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\reb_log.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 47 33 36 23 67 101 37 29 59 100 52 69 18 27 43 20 0 1 13 7 8 78 113 95 99 84 93</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\driver\src\spi_va108xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 47 33 23 29 59 100 52 69 18 27 43 20 0 1 13 4 7 8 78 96 89 87</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\pp_i2c_a.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 47 33 36 23 67 29 59 100 52 69 18 27 43 20 0 1 13 4 7 8 78 113 81 99 84 116 117 76 87 93 103 73</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\pp_spi_v2.0.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 33 36 23 67 29 59 100 52 27 43 20 0 1 13 4 7 8 78 113 81 99 84 16 76 87 93 103 82</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\src\pp_i2c_b.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54 41 22 40 47 33 36 23 67 29 59 100 52 69 18 27 43 20 0 1 13 4 7 8 78 113 81 99 84 116 119 76 87 93 103 73</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 64 32</file>
+                </tool>
+            </outputs>
+        </file>
+    </configuration>
+</project>

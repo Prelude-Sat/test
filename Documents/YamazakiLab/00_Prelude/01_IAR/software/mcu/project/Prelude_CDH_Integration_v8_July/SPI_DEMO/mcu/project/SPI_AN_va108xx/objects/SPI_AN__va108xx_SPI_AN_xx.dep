@@ -1,0 +1,305 @@
+Dependencies for Project 'SPI_AN__va108xx', Target 'SPI_AN_xx': (DO NOT MODIFY !)
+F (..\..\common\hdr\irq_va108xx.h)(0x572B7E35)()
+F (..\..\common\src\hardfault_handler.c)(0x572B7E34)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\hardfault_handler.o --omf_browse .\objects\hardfault_handler.crf --depend .\objects\hardfault_handler.d)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (.\hdr\reb_log.h)(0x572B7E31)
+F (..\..\common\src\irq_va108xx.c)(0x572B7E34)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\irq_va108xx.o --omf_browse .\objects\irq_va108xx.crf --depend .\objects\irq_va108xx.d)
+I (..\..\Common\hdr\irq_va108xx.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+F (..\..\common\hdr\cmsis_armcc.h)(0x572B7E34)()
+F (..\..\common\hdr\core_cm0.h)(0x572B7E35)()
+F (..\..\common\hdr\core_cmFunc.h)(0x572B7E34)()
+F (..\..\common\hdr\core_cmInstr.h)(0x572B7E35)()
+F (..\..\common\hdr\system_va108xx.h)(0x572B7E34)()
+F (..\..\common\src\startup_va108xx.s)(0x572B7E34)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "VA108xx SETA 1"--list .\listings\startup_va108xx.lst --xref -o .\objects\startup_va108xx.o --depend .\objects\startup_va108xx.d)
+F (..\..\common\src\system_va108xx.c)(0x572B7E34)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\system_va108xx.o --omf_browse .\objects\system_va108xx.crf --depend .\objects\system_va108xx.d)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+F (..\..\common\hdr\va108xx.h)(0x572B7E34)()
+F (..\..\driver\hdr\driver_common.h)(0x572B7E24)()
+F (..\..\driver\hdr\driver_gpio.h)(0x572B7E24)()
+F (..\..\driver\hdr\driver_i2c.h)(0x572B7E24)()
+F (..\..\driver\hdr\driver_spi.h)(0x572B7E24)()
+F (..\..\driver\hdr\driver_uart.h)(0x572B7E24)()
+F (..\..\driver\hdr\gpio_va108xx.h)(0x572B7E24)()
+F (..\..\driver\hdr\i2c_va108xx.h)(0x572B7E24)()
+F (..\..\driver\hdr\spi_va108xx.h)(0x572B7E24)()
+F (..\..\driver\hdr\uart_va108xx.h)(0x572B7E24)()
+F (..\..\driver\src\driver.common.c)(0x572B7E25)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\driver.common.o --omf_browse .\objects\driver.common.crf --depend .\objects\driver.common.d)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_board.h)(0x572B7E31)
+F (..\..\driver\src\gpio_drv_api.c)(0x572B7E25)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\gpio_drv_api.o --omf_browse .\objects\gpio_drv_api.crf --depend .\objects\gpio_drv_api.d)
+I (..\..\Driver\hdr\gpio_va108xx.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_gpio.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_board.h)(0x572B7E31)
+F (..\..\driver\src\gpio_va108xx.c)(0x572B7E25)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\gpio_va108xx.o --omf_browse .\objects\gpio_va108xx.crf --depend .\objects\gpio_va108xx.d)
+I (..\..\Driver\hdr\gpio_va108xx.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_gpio.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (..\..\Common\hdr\irq_va108xx.h)(0x572B7E35)
+F (..\..\driver\src\i2c_drv_api.c)(0x572B7E25)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\i2c_drv_api.o --omf_browse .\objects\i2c_drv_api.crf --depend .\objects\i2c_drv_api.d)
+I (..\..\Driver\hdr\i2c_va108xx.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_i2c.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_board.h)(0x572B7E31)
+F (..\..\driver\src\i2c_va108xx.c)(0x572B7E25)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\i2c_va108xx.o --omf_browse .\objects\i2c_va108xx.crf --depend .\objects\i2c_va108xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AFACC2)
+I (..\..\Driver\hdr\i2c_va108xx.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_i2c.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (..\..\Common\hdr\irq_va108xx.h)(0x572B7E35)
+F (..\..\driver\src\spi_drv_api.c)(0x572B7E25)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\spi_drv_api.o --omf_browse .\objects\spi_drv_api.crf --depend .\objects\spi_drv_api.d)
+I (..\..\Driver\hdr\spi_va108xx.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_spi.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_board.h)(0x572B7E31)
+F (..\..\driver\src\spi_va108xx.c)(0x572B7E24)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\spi_va108xx.o --omf_browse .\objects\spi_va108xx.crf --depend .\objects\spi_va108xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AFACC2)
+I (..\..\Driver\hdr\spi_va108xx.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_spi.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (..\..\Common\hdr\irq_va108xx.h)(0x572B7E35)
+F (..\..\driver\src\uart_drv_api.c)(0x572B7E25)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\uart_drv_api.o --omf_browse .\objects\uart_drv_api.crf --depend .\objects\uart_drv_api.d)
+I (..\..\Driver\hdr\uart_va108xx.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_uart.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+F (..\..\driver\src\uart_va108xx.c)(0x572B7E24)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\uart_va108xx.o --omf_browse .\objects\uart_va108xx.crf --depend .\objects\uart_va108xx.d)
+I (..\..\Driver\hdr\uart_va108xx.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_uart.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\irq_va108xx.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AFACC2)
+F (.\hdr\reb_adt75.h)(0x572B7E31)()
+F (.\hdr\reb_board.h)(0x572B7E31)()
+F (.\hdr\reb_log.h)(0x572B7E31)()
+F (.\hdr\reb_max11619.h)(0x572B7E31)()
+F (.\hdr\reb_timer.h)(0x572B7E31)()
+F (.\src\reb_adt75.c)(0x572B7E2C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\reb_adt75.o --omf_browse .\objects\reb_adt75.crf --depend .\objects\reb_adt75.d)
+I (..\..\Driver\hdr\driver_i2c.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (.\hdr\reb_adt75.h)(0x572B7E31)
+F (.\src\reb_log.c)(0x572B7E2C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\reb_log.o --omf_browse .\objects\reb_log.crf --depend .\objects\reb_log.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x55AFACC2)
+I (.\hdr\reb_log.h)(0x572B7E31)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_gpio.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Driver\hdr\driver_uart.h)(0x572B7E24)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (..\..\Utilities\hdr\segger_rtt.h)(0x572B7E25)
+I (..\..\Utilities\hdr\SEGGER_RTT_Conf.h)(0x572B7E37)
+F (.\src\reb_max11619.c)(0x572B7E2C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\reb_max11619.o --omf_browse .\objects\reb_max11619.crf --depend .\objects\reb_max11619.d)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (..\..\Driver\hdr\driver_spi.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (.\hdr\reb_max11619.h)(0x572B7E31)
+F (.\src\reb_timer.c)(0x572B7E2C)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\reb_timer.o --omf_browse .\objects\reb_timer.crf --depend .\objects\reb_timer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_timer.h)(0x572B7E31)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (..\..\Common\hdr\irq_va108xx.h)(0x572B7E35)
+F (.\src\SPI_AN_main.c)(0x5734AC88)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\spi_an_main.o --omf_browse .\objects\spi_an_main.crf --depend .\objects\spi_an_main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (.\hdr\reb_log.h)(0x572B7E31)
+I (.\hdr\reb_board.h)(0x572B7E31)
+I (.\hdr\reb_adt75.h)(0x572B7E31)
+I (..\..\Driver\hdr\driver_common.h)(0x572B7E24)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AFACC2)
+I (.\hdr\reb_max11619.h)(0x572B7E31)
+I (.\hdr\reb_timer.h)(0x572B7E31)
+I (..\..\Driver\hdr\gpio_va108xx.h)(0x572B7E24)
+I (..\..\Driver\hdr\driver_gpio.h)(0x572B7E24)
+I (..\..\Utilities\hdr\segger_rtt.h)(0x572B7E25)
+I (..\..\Utilities\hdr\SEGGER_RTT_Conf.h)(0x572B7E37)
+I (..\..\Common\hdr\irq_va108xx.h)(0x572B7E35)
+F (..\..\utilities\hdr\redirect.h)(0x572B7E26)()
+F (..\..\utilities\hdr\segger_rtt.h)(0x572B7E25)()
+F (..\..\utilities\hdr\segger_rtt_conf.h)(0x572B7E37)()
+F (..\..\utilities\hdr\utils.h)(0x572B7E25)()
+F (..\..\utilities\src\redirect.c)(0x572B7E26)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\redirect.o --omf_browse .\objects\redirect.crf --depend .\objects\redirect.d)
+I (..\..\Common\hdr\va108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (..\..\Utilities\hdr\redirect.h)(0x572B7E26)
+F (..\..\utilities\src\segger_rtt.c)(0x572B7E37)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\segger_rtt.o --omf_browse .\objects\segger_rtt.crf --depend .\objects\segger_rtt.d)
+I (..\..\Utilities\hdr\SEGGER_RTT.h)(0x572B7E25)
+I (..\..\Utilities\hdr\SEGGER_RTT_Conf.h)(0x572B7E37)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AFACC2)
+F (..\..\utilities\src\segger_rtt_printf.c)(0x572B7E26)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\segger_rtt_printf.o --omf_browse .\objects\segger_rtt_printf.crf --depend .\objects\segger_rtt_printf.d)
+I (..\..\Utilities\hdr\SEGGER_RTT.h)(0x572B7E25)
+I (..\..\Utilities\hdr\SEGGER_RTT_Conf.h)(0x572B7E37)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x55AFACC2)
+F (..\..\utilities\src\segger_rtt_syscalls_keil.c)(0x572B7E26)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\segger_rtt_syscalls_keil.o --omf_browse .\objects\segger_rtt_syscalls_keil.crf --depend .\objects\segger_rtt_syscalls_keil.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_sys.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Utilities\hdr\SEGGER_RTT.h)(0x572B7E25)
+I (..\..\Utilities\hdr\SEGGER_RTT_Conf.h)(0x572B7E37)
+F (..\..\utilities\src\utils.c)(0x572B7E26)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I..\..\Driver\hdr -I.\hdr -I..\..\Utilities\hdr -I..\..\Common\hdr-I "C:\SRC\Application Notes\AN1201 - SPI examples\mcu\project\SPI_AN_va108xx\RTE"-I C:\Keil_v5\ARM\PACK\Vorago\VA108xx\1.0.0\core-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -DVA108xx -DRTT_LOG -DSKIP_UTILS-o .\objects\utils.o --omf_browse .\objects\utils.crf --depend .\objects\utils.d)
+I (..\..\Common\hdr\VA108xx.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cm0.h)(0x572B7E35)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AFACC2)
+I (..\..\Common\hdr\core_cmInstr.h)(0x572B7E35)
+I (..\..\Common\hdr\cmsis_armcc.h)(0x572B7E34)
+I (..\..\Common\hdr\core_cmFunc.h)(0x572B7E34)
+I (..\..\Common\hdr\system_va108xx.h)(0x572B7E34)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AFACC2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x55AFACC2)
+I (..\..\Utilities\hdr\utils.h)(0x572B7E25)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\reb1_va108xx_isystem\Reb1_IAR.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\..\..\..\Users\demo\Documents\IAR sample projects\sample_proj\sample_proj\sample_proj.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

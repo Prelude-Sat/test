@@ -1,0 +1,11 @@
+.\objects\utils.o: ..\..\utilities\src\utils.c
+.\objects\utils.o: ..\..\Common\hdr\VA108xx.h
+.\objects\utils.o: ..\..\Common\hdr\core_cm0.h
+.\objects\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\utils.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\utils.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\utils.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\utils.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\utils.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\utils.o: ..\..\Utilities\hdr\utils.h

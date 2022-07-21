@@ -1,0 +1,12 @@
+.\objects\reb_timer.o: src\reb_timer.c
+.\objects\reb_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\reb_timer.o: ..\..\Common\hdr\va108xx.h
+.\objects\reb_timer.o: ..\..\Common\hdr\core_cm0.h
+.\objects\reb_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\reb_timer.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\reb_timer.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\reb_timer.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\reb_timer.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\reb_timer.o: .\hdr\reb_timer.h
+.\objects\reb_timer.o: .\hdr\reb_board.h
+.\objects\reb_timer.o: ..\..\Common\hdr\irq_va108xx.h

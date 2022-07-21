@@ -1,0 +1,29 @@
+--cpu Cortex-M0
+".\objects\hardfault_handler.o"
+".\objects\irq_va108xx.o"
+".\objects\startup_va108xx.o"
+".\objects\system_va108xx.o"
+".\objects\driver.common.o"
+".\objects\gpio_drv_api.o"
+".\objects\gpio_va108xx.o"
+".\objects\i2c_drv_api.o"
+".\objects\i2c_va108xx.o"
+".\objects\spi_drv_api.o"
+".\objects\spi_va108xx.o"
+".\objects\uart_drv_api.o"
+".\objects\uart_va108xx.o"
+".\objects\reb_adt75.o"
+".\objects\reb_log.o"
+".\objects\reb_max11619.o"
+".\objects\reb_timer.o"
+".\objects\spi_an_main.o"
+".\objects\redirect.o"
+".\objects\segger_rtt.o"
+".\objects\segger_rtt_printf.o"
+".\objects\segger_rtt_syscalls_keil.o"
+".\objects\utils.o"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors
+--feedback ".\Objects\reb1_va108xx.fed" --feedback_image=none
+--strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\reb1_va108xx.map" -o .\Objects\reb1_va108xx.axf

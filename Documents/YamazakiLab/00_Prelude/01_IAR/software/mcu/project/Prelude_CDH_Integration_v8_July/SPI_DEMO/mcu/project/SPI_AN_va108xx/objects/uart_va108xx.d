@@ -1,0 +1,16 @@
+.\objects\uart_va108xx.o: ..\..\driver\src\uart_va108xx.c
+.\objects\uart_va108xx.o: ..\..\Driver\hdr\uart_va108xx.h
+.\objects\uart_va108xx.o: ..\..\Driver\hdr\driver_uart.h
+.\objects\uart_va108xx.o: ..\..\Driver\hdr\driver_common.h
+.\objects\uart_va108xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\uart_va108xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart_va108xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\uart_va108xx.o: .\hdr\reb_board.h
+.\objects\uart_va108xx.o: ..\..\Common\hdr\va108xx.h
+.\objects\uart_va108xx.o: ..\..\Common\hdr\core_cm0.h
+.\objects\uart_va108xx.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\uart_va108xx.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\uart_va108xx.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\uart_va108xx.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\uart_va108xx.o: ..\..\Common\hdr\irq_va108xx.h
+.\objects\uart_va108xx.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

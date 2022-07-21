@@ -1,0 +1,662 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.2.320/W64 for ARM                  15/Jul/2022  17:41:16
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Exe\template_project.out
+#    Map file     =
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\List\template_project.map
+#    Command line =
+#        -f
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Exe\template_project.out.rsp
+#        (C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\driver.common.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\gpio_drv_api.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\gpio_va108xx.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\common\hardfault_handler.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\i2c_drv_api.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\i2c_va108xx.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\integration_main.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\common\irq_va108xx.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\pp_adc.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\pp_i2c_a.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\pp_i2c_b.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\pp_spi_v2.0.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\pp_timer_v2.0.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\reb_adt75.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\reb_log.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\reb_max11619.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\reb_timer.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\utilities\redirect.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\utilities\segger_rtt.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\utilities\segger_rtt_printf.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\utilities\SEGGER_RTT_Syscalls_IAR.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom\sleep.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\spi_drv_api.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\spi_va108xx.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\common\startup_IAR_va108xx.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\common\system_va108xx.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\uart_drv_api.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver\uart_va108xx.o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\utilities\utils.o
+#        --no_out_extension -o
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Exe\template_project.out
+#        --map
+#        C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\List\template_project.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\Vorago\va108xx.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__Heap_Handler  = NoFree
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The no free heap was selected because no calls to memory
+deallocation functions were found in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x1'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x1000'0000 to 0x1000'7fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section               Kind         Address    Size  Object
+  -------               ----         -------    ----  ------
+"A0":                                           0xc0
+  .intvec               ro code          0x0    0xc0  startup_IAR_va108xx.o [1]
+                                      - 0xc0    0xc0
+
+"P1":                                         0x463e
+  .text                 ro code         0xc0  0x1042  i2c_va108xx.o [3]
+  .text                 ro code       0x1102    0x7e  lz77_init_single.o [7]
+  .text                 ro code       0x1180    0x4e  ABImemset.o [7]
+  .rodata               const         0x11ce     0x2  xlocale_c.o [5]
+  .text                 ro code       0x11d0    0x30  driver.common.o [3]
+  .text                 ro code       0x1200    0xe0  I32DivModFast.o [7]
+  .text                 ro code       0x12e0   0x330  irq_va108xx.o [1]
+  .text                 ro code       0x1610    0x4e  ABImemcpy.o [7]
+  .text                 ro code       0x165e     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x1660     0x2  IntDivZer.o [7]
+  .text                 ro code       0x1662     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x1664   0xffc  xprintffull_nomb.o [5]
+  .text                 ro code       0x2660    0x12  strchr.o [7]
+  .text                 ro code       0x2672     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x2674    0x48  xfail_s.o [5]
+  .text                 ro code       0x26bc     0xe  strlen.o [7]
+  .text                 ro code       0x26ca     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x26cc    0x16  memchr.o [7]
+  .text                 ro code       0x26e2    0x2a  frexp.o [6]
+  .text                 ro code       0x270c    0x32  DblCmpLe.o [6]
+  .text                 ro code       0x273e    0x32  DblCmpGe.o [6]
+  .text                 ro code       0x2770    0x70  ldexp.o [6]
+  .text                 ro code       0x27e0    0x52  DblToI32.o [6]
+  .text                 ro code       0x2832     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x2834    0x34  IxxToDbl.o [6]
+  .text                 ro code       0x2868   0x1a8  DblAddSub.o [6]
+  .text                 ro code       0x2a10    0xc2  DblDiv.o [6]
+  .text                 ro code       0x2ad2   0x184  DblMul.o [6]
+  .text                 ro code       0x2c56     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x2c58     0xc  xlocale_c.o [5]
+  .text                 ro code       0x2c64    0x7c  I64DivMod.o [7]
+  .text                 ro code       0x2ce0     0xa  abort.o [5]
+  .text                 ro code       0x2cea     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x2cec     0x2  I64DivZer.o [7]
+  .text                 ro code       0x2cee     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x2cf0    0x14  exit.o [8]
+  .text                 ro code       0x2d04    0x2c  iarttio.o [8]
+  .text                 ro code       0x2d30     0x8  XShttio.o [5]
+  .text                 ro code       0x2d38   0x8c4  spi_va108xx.o [3]
+  .text                 ro code       0x35fc   0x480  integration_main.o [2]
+  .text                 ro code       0x3a7c   0x238  pp_spi_v2.0.o [2]
+  .text                 ro code       0x3cb4    0x28  printf.o [5]
+  .text                 ro code       0x3cdc   0x214  segger_rtt.o [4]
+  .text                 ro code       0x3ef0    0x74  strcpy.o [7]
+  .text                 ro code       0x3f64   0x138  spi_drv_api.o [3]
+  .text                 ro code       0x409c    0xf4  i2c_drv_api.o [3]
+  .rodata               const         0x4190    0x6a  xprintffull_nomb.o [5]
+  .text                 ro code       0x41fa     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x41fc    0x44  putchar.o [5]
+  .text                 ro code       0x4240    0x10  SEGGER_RTT_Syscalls_IAR.o [4]
+  .text                 ro code       0x4250    0x3c  reb_timer.o [2]
+  .text                 ro code       0x428c    0x3c  zero_init3.o [7]
+  .rodata               const         0x42c8    0x38  integration_main.o [2]
+  .rodata               const         0x4300    0x38  integration_main.o [2]
+  .text                 ro code       0x4338    0x28  data_init.o [7]
+  .rodata               const         0x4360    0x24  integration_main.o [2]
+  .iar.init_table       const         0x4384    0x28  - Linker created -
+  .rodata               const         0x43ac    0x20  integration_main.o [2]
+  .rodata               const         0x43cc    0x20  integration_main.o [2]
+  .text                 ro code       0x43ec    0x1e  cmain.o [7]
+  .text                 ro code       0x440a     0x4  low_level_init.o [5]
+  .text                 ro code       0x440e     0x8  exit.o [5]
+  .text                 ro code       0x4416     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x4418     0xa  cexit.o [7]
+  .text                 ro code       0x4422     0x2  startup_IAR_va108xx.o [1]
+  .rodata               const         0x4424    0x1c  integration_main.o [2]
+  .rodata               const         0x4440    0x1c  integration_main.o [2]
+  .rodata               const         0x445c    0x1c  integration_main.o [2]
+  .rodata               const         0x4478    0x1c  integration_main.o [2]
+  .text                 ro code       0x4494    0x1c  cstartup_M.o [7]
+  .rodata               const         0x44b0    0x18  integration_main.o [2]
+  .rodata               const         0x44c8    0x18  integration_main.o [2]
+  .rodata               const         0x44e0    0x18  integration_main.o [2]
+  .rodata               const         0x44f8    0x18  integration_main.o [2]
+  .rodata               const         0x4510    0x18  integration_main.o [2]
+  .text                 ro code       0x4528    0x16  xprout.o [5]
+  .text                 ro code       0x453e     0x2  startup_IAR_va108xx.o [1]
+  .rodata               const         0x4540    0x10  integration_main.o [2]
+  .rodata               const         0x4550    0x10  pp_spi_v2.0.o [2]
+  .text                 ro code       0x4560    0x10  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x4570    0x10  system_va108xx.o [1]
+  .rodata               const         0x4580     0xc  integration_main.o [2]
+  .rodata               const         0x458c     0xc  segger_rtt.o [4]
+  .rodata               const         0x4598     0xc  segger_rtt.o [4]
+  .text                 ro code       0x45a4     0xc  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45b0     0x2  hardfault_handler.o [1]
+  .text                 ro code       0x45b2     0x2  startup_IAR_va108xx.o [1]
+  .rodata               const         0x45b4     0x8  integration_main.o [2]
+  .rodata               const         0x45bc     0x8  segger_rtt.o [4]
+  .rodata               const         0x45c4     0x4  i2c_va108xx.o [3]
+  .rodata               const         0x45c8     0x4  spi_va108xx.o [3]
+  .text                 ro code       0x45cc     0x2  sleep.o [2]
+  .text                 ro code       0x45ce     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45d0     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45d2     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45d4     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45d6     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45d8     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45da     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45dc     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45de     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45e0     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45e2     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45e4     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45e6     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45e8     0x2  startup_IAR_va108xx.o [1]
+  .text                 ro code       0x45ea     0x2  startup_IAR_va108xx.o [1]
+  .rodata               const         0x45ec     0x1  xlocale_c.o [5]
+  .rodata               const         0x45ed     0x0  zero_init3.o [7]
+  .rodata               const         0x45ed     0x0  lz77_init_single.o [7]
+  Initializer bytes     const         0x45ed   0x111  <for P2-1>
+                                    - 0x46fe  0x463e
+
+"P2", part 1 of 3:                             0x5b8
+  P2-1                           0x1000'0000   0x5b8  <Init block>
+    .data               inited   0x1000'0000    0x28  i2c_drv_api.o [3]
+    .data               inited   0x1000'0028    0x28  i2c_drv_api.o [3]
+    .data               inited   0x1000'0050    0xe8  i2c_va108xx.o [3]
+    .data               inited   0x1000'0138    0xe8  i2c_va108xx.o [3]
+    .data               inited   0x1000'0220    0x28  spi_drv_api.o [3]
+    .data               inited   0x1000'0248    0x28  spi_drv_api.o [3]
+    .data               inited   0x1000'0270    0x28  spi_drv_api.o [3]
+    .data               inited   0x1000'0298    0xdc  spi_va108xx.o [3]
+    .data               inited   0x1000'0374    0xdc  spi_va108xx.o [3]
+    .data               inited   0x1000'0450    0xdc  spi_va108xx.o [3]
+    .data               inited   0x1000'052c     0x4  system_va108xx.o [1]
+    .data               inited   0x1000'0530    0x48  xfiles.o [5]
+    .data               inited   0x1000'0578     0x8  XShttio.o [5]
+    .data               inited   0x1000'0580    0x38  xlocale_c.o [5]
+                               - 0x1000'05b8   0x5b8
+
+"P2", part 2 of 3:                             0xcd8
+  .bss                  zero     0x1000'05b8   0x800  segger_rtt.o [4]
+  .bss                  zero     0x1000'0db8   0x400  segger_rtt.o [4]
+  .bss                  zero     0x1000'11b8    0x50  xfiles.o [5]
+  .bss                  zero     0x1000'1208    0x40  integration_main.o [2]
+  .bss                  zero     0x1000'1248    0x10  segger_rtt.o [4]
+  .bss                  zero     0x1000'1258    0x10  segger_rtt.o [4]
+  .bss                  zero     0x1000'1268     0x4  integration_main.o [2]
+  .bss                  zero     0x1000'126c     0x4  integration_main.o [2]
+  .bss                  zero     0x1000'1270     0x4  integration_main.o [2]
+  .bss                  zero     0x1000'1274     0x4  integration_main.o [2]
+  .bss                  zero     0x1000'1278     0x4  integration_main.o [2]
+  .bss                  zero     0x1000'127c     0x4  integration_main.o [2]
+  .bss                  zero     0x1000'1280     0x4  integration_main.o [2]
+  .bss                  zero     0x1000'1284     0x4  pp_spi_v2.0.o [2]
+  .bss                  zero     0x1000'1288     0x4  xfail_s.o [5]
+  .bss                  zero     0x1000'128c     0x1  reb_timer.o [2]
+  .bss                  zero     0x1000'128d     0x1  reb_timer.o [2]
+                               - 0x1000'128e   0xcd6
+
+"P2", part 3 of 3:                             0x400
+  CSTACK                         0x1000'1290   0x400  <Block>
+    CSTACK              uninit   0x1000'1290   0x400  <Block tail>
+                               - 0x1000'1690   0x400
+
+Absolute sections:                              0xa8
+  .ARM.__at_0x10007000  zero     0x1000'7000    0xa8  segger_rtt.o [4]
+                               - 0x1000'70a8    0xa8
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x46fe     0x1'ffff  0x1'b902
+  0x1000'1690  0x1000'6fff    0x5970
+  0x1000'70a8  0x1000'7fff     0xf58
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    2 destination ranges, total size 0xd7e:
+          0x1000'05b8  0xcd6
+          0x1000'7000   0xa8
+
+Copy/lz77 (__iar_lz77_init_single3)
+    1 source range, total size 0x111 (18% of destination):
+               0x45ed  0x111
+    1 destination range, total size 0x5b8:
+          0x1000'0000  0x5b8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                     ro code  ro data  rw data  rw data
+                                                           (abs)
+    ------                     -------  -------  -------  -------
+command line/config:
+    -------------------------------------------------------------
+    Total:
+
+C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\common: [1]
+    hardfault_handler.o              2
+    irq_va108xx.o                  816
+    startup_IAR_va108xx.o          276
+    system_va108xx.o                16        1        4
+    -------------------------------------------------------------
+    Total:                       1'110        1        4
+
+C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom: [2]
+    integration_main.o           1'152      480       92
+    pp_spi_v2.0.o                  568       16        4
+    reb_timer.o                     60                 2
+    sleep.o                          2
+    -------------------------------------------------------------
+    Total:                       1'782      496       98
+
+C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver: [3]
+    driver.common.o                 48
+    i2c_drv_api.o                  244       14       80
+    i2c_va108xx.o                4'162       91      464
+    spi_drv_api.o                  312       22      120
+    spi_va108xx.o                2'244      127      660
+    -------------------------------------------------------------
+    Total:                       7'010      254    1'324
+
+C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\utilities: [4]
+    SEGGER_RTT_Syscalls_IAR.o       16
+    segger_rtt.o                   532       32    3'104      168
+    -------------------------------------------------------------
+    Total:                         548       32    3'104      168
+
+dl6M_tlf.a: [5]
+    XShttio.o                        8        1        8
+    abort.o                         10
+    exit.o                           8
+    low_level_init.o                 4
+    printf.o                        40
+    putchar.o                       68
+    xfail_s.o                       72                 4
+    xfiles.o                                 14      152
+    xlocale_c.o                     12       14       56
+    xprintffull_nomb.o           4'092      106
+    xprout.o                        22
+    -------------------------------------------------------------
+    Total:                       4'336      135      220
+
+m6M_tl.a: [6]
+    DblAddSub.o                    424
+    DblCmpGe.o                      50
+    DblCmpLe.o                      50
+    DblDiv.o                       194
+    DblMul.o                       388
+    DblToI32.o                      82
+    IxxToDbl.o                      52
+    frexp.o                         42
+    ldexp.o                        112
+    -------------------------------------------------------------
+    Total:                       1'394
+
+rt6M_tl.a: [7]
+    ABImemcpy.o                     78
+    ABImemset.o                     78
+    I32DivModFast.o                224
+    I64DivMod.o                    124
+    I64DivZer.o                      2
+    IntDivZer.o                      2
+    cexit.o                         10
+    cmain.o                         30
+    cstartup_M.o                    28
+    data_init.o                     40
+    lz77_init_single.o             126
+    memchr.o                        22
+    strchr.o                        18
+    strcpy.o                       116
+    strlen.o                        14
+    zero_init3.o                    60
+    -------------------------------------------------------------
+    Total:                         972
+
+shb_l.a: [8]
+    exit.o                          20
+    iarttio.o                       44
+    -------------------------------------------------------------
+    Total:                          64
+
+    Linker created                           40    1'024
+-----------------------------------------------------------------
+    Grand Total:                17'216      958    5'774      168
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base        0x4384          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x43ac          --   Gb  - Linker created -
+?main                        0x43ed         Code  Gb  cmain.o [7]
+CONFIG_TIM23_periodic_int
+                             0x377b   0x60  Code  Gb  integration_main.o [2]
+CSTACK$$Base            0x1000'1290          --   Gb  - Linker created -
+CSTACK$$Limit           0x1000'1690          --   Gb  - Linker created -
+C_HardFault_Handler          0x45b1    0x2  Code  Gb  hardfault_handler.o [1]
+DriverVersion                0x45c8    0x4  Data  Lc  spi_va108xx.o [3]
+Driver_I2C0             0x1000'0000   0x28  Data  Gb  i2c_drv_api.o [3]
+Driver_I2C1             0x1000'0028   0x28  Data  Gb  i2c_drv_api.o [3]
+Driver_SPI0             0x1000'0220   0x28  Data  Gb  spi_drv_api.o [3]
+Driver_SPI1             0x1000'0248   0x28  Data  Gb  spi_drv_api.o [3]
+Driver_SPI2             0x1000'0270   0x28  Data  Gb  spi_drv_api.o [3]
+I2C0_Resources          0x1000'0050   0xe8  Data  Gb  i2c_va108xx.o [3]
+I2C1_Resources          0x1000'0138   0xe8  Data  Gb  i2c_va108xx.o [3]
+LRsw                         0x3695   0x22  Code  Gb  integration_main.o [2]
+NVIC_DisableIRQ              0x12ef    0xe  Code  Lc  irq_va108xx.o [1]
+NVIC_EnableIRQ               0x35fd    0xe  Code  Lc  integration_main.o [2]
+NVIC_EnableIRQ               0x12e1    0xe  Code  Lc  irq_va108xx.o [1]
+NVIC_SetPriority             0x360b   0x8a  Code  Lc  integration_main.o [2]
+NVIC_SetPriority             0x12fd   0x8a  Code  Lc  irq_va108xx.o [1]
+OC0_IRQHandler               0x4251   0x1a  Code  Gb  reb_timer.o [2]
+OC2_IRQHandler               0x45cd    0x2  Code  Gb  sleep.o [2]
+OC30_IRQHandlerX             0x37db   0x58  Code  Gb  integration_main.o [2]
+Region$$Table$$Base          0x4384          --   Gb  - Linker created -
+Region$$Table$$Limit         0x43ac          --   Gb  - Linker created -
+SEGGER_RTT_Write             0x3ebd   0x2e  Code  Gb  segger_rtt.o [4]
+SEGGER_RTT_WriteNoLock       0x3e49   0x6c  Code  Gb  segger_rtt.o [4]
+SPI0_Resources          0x1000'0298   0xdc  Data  Gb  spi_va108xx.o [3]
+SPI1_Resources          0x1000'0374   0xdc  Data  Gb  spi_va108xx.o [3]
+SPI2_Resources          0x1000'0450   0xdc  Data  Gb  spi_va108xx.o [3]
+SPI_WRITE_CNT           0x1000'1284    0x4  Data  Gb  pp_spi_v2.0.o [2]
+SysTick_Handler              0x3833   0x1c  Code  Gb  integration_main.o [2]
+SystemCoreClock         0x1000'052c    0x4  Data  Gb  system_va108xx.o [1]
+SystemInit                   0x4571    0x8  Code  Gb  system_va108xx.o [1]
+VOR_Disable_Irq              0x1391   0xb2  Code  Gb  irq_va108xx.o [1]
+VOR_Enable_Irq               0x1443  0x1aa  Code  Gb  irq_va108xx.o [1]
+VOR_Get_ClockFreq            0x11d1    0x6  Code  Gb  driver.common.o [3]
+VOR_Get_SysTime              0x11d7    0x2  Code  Gb  driver.common.o [3]
+VOR_I2C0_Control             0x40eb    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_GetDataCount        0x40e1    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_GetStatus           0x40f5    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_Initialize          0x409d    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_MS_IRQHandler       0x40ff    0xa  Code  Gb  i2c_drv_api.o [3]
+VOR_I2C0_MasterReceive       0x40bf    0xe  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_MasterTransmit
+                             0x40b1    0xe  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_SL_IRQHandler       0x4109    0xa  Code  Gb  i2c_drv_api.o [3]
+VOR_I2C0_SlaveReceive        0x40d7    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_SlaveTransmit       0x40cd    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C0_Uninitialize        0x40a7    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_Control             0x4161    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_GetDataCount        0x4157    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_GetStatus           0x416b    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_Initialize          0x4113    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_MS_IRQHandler       0x4175    0xa  Code  Gb  i2c_drv_api.o [3]
+VOR_I2C1_MasterReceive       0x4135    0xe  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_MasterTransmit
+                             0x4127    0xe  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_SL_IRQHandler       0x417f    0xa  Code  Gb  i2c_drv_api.o [3]
+VOR_I2C1_SlaveReceive        0x414d    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_SlaveTransmit       0x4143    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C1_Uninitialize        0x411d    0xa  Code  Lc  i2c_drv_api.o [3]
+VOR_I2C_Addr10Bit             0x197    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_AlgFilter             0x219    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_ClkToLimit            0x231    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_Control               0x293   0xb4  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_DigFilter             0x21f    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_Drv_Mode              0x12f    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_FifoClr               0x19d   0x38  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_GetDataCount         0x10ed   0x16  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_GetStatus             0x347  0x17a  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_Initialize             0xc7   0x46  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_Loopback              0x1d5   0x26  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_MasterHandler         0xd69  0x1b2  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_MasterReceive         0x913  0x14e  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_MasterTransmit        0x757  0x1bc  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_OwnAddr               0x191    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_Poll_Tout             0x135    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_RxFifoTrg             0x225    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_Rxffmd                0x213    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_Setup                 0x4c5  0x20e  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_SlaveHandler          0xf1b  0x1ce  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_SlaveReceive          0xc31  0x124  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_SlaveTransmit         0xa65  0x1c8  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_Stop                  0x6ed   0x6a  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_TmConfig              0x237    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_TxFifoTrg             0x22b    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_Txfemd                0x20d    0x6  Code  Lc  i2c_va108xx.o [3]
+VOR_I2C_Uninitialize          0x10d   0x22  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_abort_transfer        0x23d   0x56  Code  Gb  i2c_va108xx.o [3]
+VOR_I2C_busSpeed              0x13b   0x56  Code  Lc  i2c_va108xx.o [3]
+VOR_I2Cx_GetVersion            0xc1    0x6  Code  Gb  i2c_va108xx.o [3]
+VOR_SPI0_Control             0x3f97    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_GetRxCount          0x3fb5    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_GetStatus           0x3fa1    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_GetTxCount          0x3fab    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_IRQHandler          0x3fbf    0xa  Code  Gb  spi_drv_api.o [3]
+VOR_SPI0_Initialize          0x3f65    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_Receive             0x3f83    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_Send                0x3f79    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_Transfer            0x3f8d    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI0_Uninitialize        0x3f6f    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_Control             0x3ffb    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_GetRxCount          0x4023    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_GetStatus           0x4005    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_GetTxCount          0x4019    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_IRQHandler          0x400f    0xa  Code  Gb  spi_drv_api.o [3]
+VOR_SPI1_Initialize          0x3fc9    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_Receive             0x3fe7    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_Send                0x3fdd    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_Transfer            0x3ff1    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI1_Uninitialize        0x3fd3    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_Control             0x405f    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_GetRxCount          0x4087    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_GetStatus           0x4069    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_GetTxCount          0x407d    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_IRQHandler          0x4073    0xa  Code  Gb  spi_drv_api.o [3]
+VOR_SPI2_Initialize          0x402d    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_Receive             0x404b    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_Send                0x4041    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_Transfer            0x4055    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI2_Uninitialize        0x4037    0xa  Code  Lc  spi_drv_api.o [3]
+VOR_SPI_CTRL_ENABLE_BLOCKMODE_OPR
+                             0x2e57   0x34  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_CTRL_SLAVE_OP_DISABLEMODE
+                             0x2e23   0x34  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Control              0x2ffd   0xd4  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Drv_Mode             0x2dad    0x6  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_ENABLE_INTERFACE
+                             0x2fc9   0x34  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_GetRxCount           0x35f9    0x4  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_GetStatus            0x30d1   0xba  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_GetTxCount           0x35f5    0x4  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Initialize           0x2d3f   0x40  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_IrqHandler           0x348b  0x16a  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Poll_Tout            0x2db3    0x6  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Receive              0x3257   0xfc  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SET_CTRL_SIZE_OPR
+                             0x2e8b   0x28  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SET_Clock_Mode       0x2f0d   0x32  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SET_Clock_Rate       0x2f3f   0x58  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SET_LOOPBACKMODE
+                             0x2db9   0x34  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SET_RX_FIFOTRG       0x2ef3   0x1a  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SET_SLAVEMODE        0x2ded   0x36  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SET_TX_FIFOTRG       0x2ed9   0x1a  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_SLAVE_SELECT_OPR
+                             0x2eb3   0x26  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Send                 0x318b   0xcc  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Transfer             0x3353  0x138  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_Uninitialize         0x2d7f   0x2e  Code  Gb  spi_va108xx.o [3]
+VOR_SPI_abort_transfer       0x2fa5   0x24  Code  Gb  spi_va108xx.o [3]
+VOR_SPIx_GetVersion          0x2d39    0x6  Code  Gb  spi_va108xx.o [3]
+VOR_Sleep                    0x11d9   0x1e  Code  Gb  driver.common.o [3]
+VOR_TIM1_IRQHandler          0x426b   0x1a  Code  Gb  reb_timer.o [2]
+WDT_pulse                    0x36b7   0x1e  Code  Gb  integration_main.o [2]
+_DoInit                      0x3cdd   0x70  Code  Lc  segger_rtt.o [4]
+_GetAvailWriteSpace          0x3e13   0x1a  Code  Lc  segger_rtt.o [4]
+_LitobFullNoMb               0x2499  0x124  Code  Lc  xprintffull_nomb.o [5]
+_Locale_lconv           0x1000'0580   0x38  Data  Lc  xlocale_c.o [5]
+_PrintfFullNoMb              0x1665  0xe34  Code  Gb  xprintffull_nomb.o [5]
+_Prout                       0x4529   0x16  Code  Gb  xprout.o [5]
+_PutcharFullNoMb             0x2609   0x22  Code  Lc  xprintffull_nomb.o [5]
+_PutcharsFullNoMb            0x262b   0x36  Code  Lc  xprintffull_nomb.o [5]
+_SEGGER_RTT             0x1000'7000   0xa8  Data  Gb  segger_rtt.o [4]
+_WriteBlocking               0x3d4d   0x78  Code  Lc  segger_rtt.o [4]
+_WriteNoCheck                0x3dc5   0x4e  Code  Lc  segger_rtt.o [4]
+__aeabi_cdcmple              0x270d         Code  Gb  DblCmpLe.o [6]
+__aeabi_cdrcmple             0x273f         Code  Gb  DblCmpGe.o [6]
+__aeabi_d2iz                 0x27e1         Code  Gb  DblToI32.o [6]
+__aeabi_d2uiz                0x2805         Code  Gb  DblToI32.o [6]
+__aeabi_ddiv                 0x2a11         Code  Gb  DblDiv.o [6]
+__aeabi_dmul                 0x2ad3         Code  Gb  DblMul.o [6]
+__aeabi_dsub                 0x2923         Code  Gb  DblAddSub.o [6]
+__aeabi_i2d                  0x2855         Code  Gb  IxxToDbl.o [6]
+__aeabi_idiv                 0x122d         Code  Gb  I32DivModFast.o [7]
+__aeabi_idiv0                0x1661         Code  Gb  IntDivZer.o [7]
+__aeabi_idivmod              0x122d         Code  Gb  I32DivModFast.o [7]
+__aeabi_ldiv0                0x2ced         Code  Gb  I64DivZer.o [7]
+__aeabi_memcpy               0x1645         Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy4              0x1611         Code  Gb  ABImemcpy.o [7]
+__aeabi_memcpy8              0x1611         Code  Gb  ABImemcpy.o [7]
+__aeabi_memset               0x1181         Code  Gb  ABImemset.o [7]
+__aeabi_ui2d                 0x2835         Code  Gb  IxxToDbl.o [6]
+__aeabi_uidiv                0x1233         Code  Gb  I32DivModFast.o [7]
+__aeabi_uidivmod             0x1233         Code  Gb  I32DivModFast.o [7]
+__aeabi_uldivmod             0x2c65         Code  Gb  I64DivMod.o [7]
+__cmain                      0x43ed         Code  Gb  cmain.o [7]
+__exit                       0x2cf1   0x14  Code  Gb  exit.o [8]
+__iar_Fail_s                 0x2675   0x22  Code  Gb  xfail_s.o [5]
+__iar_Memchr                 0x26cd         Code  Gb  memchr.o [7]
+__iar_Memcpy                 0x1651         Code  Gb  ABImemcpy.o [7]
+__iar_Memset4_word           0x11a1         Code  Gb  ABImemset.o [7]
+__iar_Memset_word            0x118d         Code  Gb  ABImemset.o [7]
+__iar_Stdout            0x1000'0530   0x48  Data  Gb  xfiles.o [5]
+__iar_Strchr                 0x2661         Code  Gb  strchr.o [7]
+__iar_close_ttio             0x2d05   0x2c  Code  Gb  iarttio.o [8]
+__iar_d2uiz                  0x2809         Code  Gb  DblToI32.o [6]
+__iar_data_init3             0x4339   0x28  Code  Gb  data_init.o [7]
+__iar_frexp                  0x26ef         Code  Gb  frexp.o [6]
+__iar_frexp64                0x26e3         Code  Gb  frexp.o [6]
+__iar_frexpl                 0x26ef         Code  Gb  frexp.o [6]
+__iar_ldexp64                0x2771         Code  Gb  ldexp.o [6]
+__iar_lookup_ttioh           0x2d31    0x8  Code  Gb  XShttio.o [5]
+__iar_lz77_init_single3
+                             0x1103   0x7e  Code  Gb  lz77_init_single.o [7]
+__iar_program_start          0x4495         Code  Gb  cstartup_M.o [7]
+__iar_scalbln64              0x2771         Code  Gb  ldexp.o [6]
+__iar_scalbn64               0x2771         Code  Gb  ldexp.o [6]
+__iar_ttio_handles      0x1000'0578    0x8  Data  Lc  XShttio.o [5]
+__iar_zero_init3             0x428d   0x3c  Code  Gb  zero_init3.o [7]
+__low_level_init             0x440b    0x4  Code  Gb  low_level_init.o [5]
+__vector_table                  0x0         Data  Gb  startup_IAR_va108xx.o [1]
+__write                      0x4241   0x10  Code  Gb  SEGGER_RTT_Syscalls_IAR.o [4]
+_acDownBuffer           0x1000'1248   0x10  Data  Lc  segger_rtt.o [4]
+_acUpBuffer             0x1000'0db8  0x400  Data  Lc  segger_rtt.o [4]
+_call_main                   0x43f9         Code  Gb  cmain.o [7]
+_exit                        0x4419         Code  Gb  cexit.o [7]
+_scopeDownBuffer        0x1000'1258   0x10  Data  Lc  segger_rtt.o [4]
+_scopeUpBuffer          0x1000'05b8  0x800  Data  Lc  segger_rtt.o [4]
+abort                        0x2ce1    0xa  Code  Gb  abort.o [5]
+cnt_10ms                0x1000'126c    0x4  Data  Gb  integration_main.o [2]
+cnt_SysTick             0x1000'1280    0x4  Data  Gb  integration_main.o [2]
+cnt_sec                 0x1000'1270    0x4  Data  Gb  integration_main.o [2]
+cs                           0x3b59   0x28  Code  Gb  pp_spi_v2.0.o [2]
+elapsed_time_array      0x1000'1208   0x40  Data  Gb  integration_main.o [2]
+eps_get_HK_isr_flag     0x1000'1268    0x4  Data  Gb  integration_main.o [2]
+exit                         0x440f    0x8  Code  Gb  exit.o [5]
+frequency                    0x3b81   0x68  Code  Gb  pp_spi_v2.0.o [2]
+frexp                        0x26e3         Code  Gb  frexp.o [6]
+frexpl                       0x26e3         Code  Gb  frexp.o [6]
+helth_check                  0x3705   0x76  Code  Gb  integration_main.o [2]
+i                       0x1000'127c    0x4  Data  Gb  integration_main.o [2]
+i2c_driver_version           0x45c4    0x4  Data  Lc  i2c_va108xx.o [3]
+init_cs                      0x3b3b   0x1e  Code  Gb  pp_spi_v2.0.o [2]
+ldexp                        0x2771         Code  Gb  ldexp.o [6]
+ldexpl                       0x2771         Code  Gb  ldexp.o [6]
+localeconv                   0x2c59    0x4  Code  Gb  xlocale_c.o [5]
+main                         0x3889  0x168  Code  Gb  integration_main.o [2]
+memchr                       0x26cd         Code  Gb  memchr.o [7]
+msec_tim_timeout        0x1000'128c    0x1  Data  Lc  reb_timer.o [2]
+new_SYSTICK             0x1000'1278    0x4  Data  Gb  integration_main.o [2]
+obuf                    0x1000'11b8   0x50  Data  Lc  xfiles.o [5]
+old_SYSTICK             0x1000'1274    0x4  Data  Gb  integration_main.o [2]
+printf                       0x3cb5   0x28  Code  Gb  printf.o [5]
+putchar                      0x41fd   0x44  Code  Gb  putchar.o [5]
+scalbln                      0x2771         Code  Gb  ldexp.o [6]
+scalblnl                     0x2771         Code  Gb  ldexp.o [6]
+scalbn                       0x2771         Code  Gb  ldexp.o [6]
+scalbnl                      0x2771         Code  Gb  ldexp.o [6]
+scale                        0x25bd   0x44  Code  Lc  xprintffull_nomb.o [5]
+sec_hand                0x1000'1288    0x4  Data  Lc  xfail_s.o [5]
+sec_tim_timeout         0x1000'128d    0x1  Data  Lc  reb_timer.o [2]
+spi                          0x3a7d   0xbe  Code  Gb  pp_spi_v2.0.o [2]
+spi_send_cmd                 0x36d5   0x30  Code  Gb  integration_main.o [2]
+spi_write                    0x3be9   0xa0  Code  Gb  pp_spi_v2.0.o [2]
+strchr                       0x2661         Code  Gb  strchr.o [7]
+strcpy                       0x3ef1         Code  Gb  strcpy.o [7]
+strlen                       0x26bd         Code  Gb  strlen.o [7]
+
+
+[1] = C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\common
+[2] = C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\custom
+[3] = C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\driver
+[4] = C:\Users\falco\Documents\YamazakiLab\00_Prelude\01_IAR\software\mcu\project\Prelude_CDH_Integration_v8_July\Debug\Obj\utilities
+[5] = dl6M_tlf.a
+[6] = m6M_tl.a
+[7] = rt6M_tl.a
+[8] = shb_l.a
+
+  17'216 bytes of readonly  code memory
+     958 bytes of readonly  data memory
+   5'774 bytes of readwrite data memory (+ 168 absolute)
+
+Errors: none
+Warnings: none

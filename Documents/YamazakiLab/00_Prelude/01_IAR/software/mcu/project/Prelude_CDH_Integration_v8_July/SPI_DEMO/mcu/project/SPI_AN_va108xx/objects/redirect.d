@@ -1,0 +1,10 @@
+.\objects\redirect.o: ..\..\utilities\src\redirect.c
+.\objects\redirect.o: ..\..\Common\hdr\va108xx.h
+.\objects\redirect.o: ..\..\Common\hdr\core_cm0.h
+.\objects\redirect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\redirect.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\redirect.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\redirect.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\redirect.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\redirect.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\redirect.o: ..\..\Utilities\hdr\redirect.h

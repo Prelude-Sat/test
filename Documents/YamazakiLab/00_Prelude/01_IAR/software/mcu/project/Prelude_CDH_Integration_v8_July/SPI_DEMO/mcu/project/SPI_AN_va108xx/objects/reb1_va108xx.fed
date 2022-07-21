@@ -1,0 +1,108 @@
+;#<FEEDBACK># ARM Linker, 5060020: Last Updated: Thu May 12 12:13:05 2016
+;VERSION 0.2
+;FILE driver.common.o
+VOR_GPIO_PinMux <= USED 0
+__asm___15_driver_common_c_0e96996e____REV16 <= USED 0
+__asm___15_driver_common_c_0e96996e____REVSH <= USED 0
+;FILE gpio_drv_api.o
+__asm___14_gpio_drv_api_c____REV16 <= USED 0
+__asm___14_gpio_drv_api_c____REVSH <= USED 0
+;FILE gpio_va108xx.o
+__asm___14_gpio_va108xx_c____REV16 <= USED 0
+__asm___14_gpio_va108xx_c____REVSH <= USED 0
+;FILE hardfault_handler.o
+ReadMem <= USED 0
+__asm___19_hardfault_handler_c_ReadMem____REV16 <= USED 0
+__asm___19_hardfault_handler_c_ReadMem____REVSH <= USED 0
+;FILE i2c_drv_api.o
+__asm___13_i2c_drv_api_c_2abda633____REV16 <= USED 0
+__asm___13_i2c_drv_api_c_2abda633____REVSH <= USED 0
+;FILE i2c_va108xx.o
+__asm___13_i2c_va108xx_c_f567a768____REV16 <= USED 0
+__asm___13_i2c_va108xx_c_f567a768____REVSH <= USED 0
+;FILE irq_va108xx.o
+__asm___13_irq_va108xx_c_314bb430____REV16 <= USED 0
+__asm___13_irq_va108xx_c_314bb430____REVSH <= USED 0
+;FILE reb_adt75.o
+VOR_ADT75_GetTemp <= USED 0
+VOR_ADT75_Initialize <= USED 0
+VOR_ADT75_UnInitialize <= USED 0
+;FILE reb_log.o
+VOR_Log <= USED 0
+VOR_Log_Init <= USED 0
+__asm___9_reb_log_c_VOR_Log____REV16 <= USED 0
+__asm___9_reb_log_c_VOR_Log____REVSH <= USED 0
+;FILE reb_max11619.o
+VOR_MAX11619_Configure <= USED 0
+VOR_MAX11619_GetData <= USED 0
+VOR_MAX11619_Initialize <= USED 0
+VOR_MAX11619_UnInitialize <= USED 0
+__asm___14_reb_max11619_c_4956eb86____REV16 <= USED 0
+__asm___14_reb_max11619_c_4956eb86____REVSH <= USED 0
+;FILE reb_timer.o
+VOR_TIM0_MSecClear <= USED 0
+VOR_TIM0_MSecExpired <= USED 0
+VOR_TIM0_MSecInitialize <= USED 0
+VOR_TIM1_SecClear <= USED 0
+VOR_TIM1_SecExpired <= USED 0
+VOR_TIM1_SecInitialize <= USED 0
+__asm___11_reb_timer_c_a1257340____REV16 <= USED 0
+__asm___11_reb_timer_c_a1257340____REVSH <= USED 0
+;FILE redirect.o
+__asm___10_redirect_c____REV16 <= USED 0
+__asm___10_redirect_c____REVSH <= USED 0
+;FILE segger_rtt.o
+SEGGER_RTT_AllocDownBuffer <= USED 0
+SEGGER_RTT_AllocUpBuffer <= USED 0
+SEGGER_RTT_GetKey <= USED 0
+SEGGER_RTT_HasData <= USED 0
+SEGGER_RTT_HasKey <= USED 0
+SEGGER_RTT_Read <= USED 0
+SEGGER_RTT_ReadNoLock <= USED 0
+SEGGER_RTT_SetNameDownBuffer <= USED 0
+SEGGER_RTT_SetNameUpBuffer <= USED 0
+SEGGER_RTT_TerminalOut <= USED 0
+SEGGER_RTT_WaitKey <= USED 0
+SEGGER_RTT_WriteSkipNoLock <= USED 0
+;FILE segger_rtt_printf.o
+;FILE segger_rtt_syscalls_keil.o
+_sys_close <= USED 0
+_sys_command_string <= USED 0
+_sys_ensure <= USED 0
+_sys_exit <= USED 0
+_sys_flen <= USED 0
+_sys_istty <= USED 0
+_sys_open <= USED 0
+_sys_read <= USED 0
+_sys_seek <= USED 0
+_sys_tmpnam <= USED 0
+_sys_write <= USED 0
+_ttywrch <= USED 0
+;FILE spi_an_main.o
+READ_APB <= USED 0
+REB1_SPIB_setup <= USED 0
+WRITE_APB <= USED 0
+__asm___13_SPI_AN_main_c_2020464a____REV16 <= USED 0
+__asm___13_SPI_AN_main_c_2020464a____REVSH <= USED 0
+;FILE spi_drv_api.o
+__asm___13_spi_drv_api_c_96ad86d8____REV16 <= USED 0
+__asm___13_spi_drv_api_c_96ad86d8____REVSH <= USED 0
+;FILE spi_va108xx.o
+VOR_SPI_Drv_Mode <= USED 0
+VOR_SPI_Poll_Tout <= USED 0
+__asm___13_spi_va108xx_c_c57ac6eb____REV16 <= USED 0
+__asm___13_spi_va108xx_c_c57ac6eb____REVSH <= USED 0
+;FILE startup_va108xx.o
+;FILE system_va108xx.o
+SystemCoreClockUpdate <= USED 0
+__asm___16_system_va108xx_c_5d646a67____REV16 <= USED 0
+__asm___16_system_va108xx_c_5d646a67____REVSH <= USED 0
+;FILE uart_drv_api.o
+__asm___14_uart_drv_api_c____REV16 <= USED 0
+__asm___14_uart_drv_api_c____REVSH <= USED 0
+;FILE uart_va108xx.o
+__asm___14_uart_va108xx_c____REV16 <= USED 0
+__asm___14_uart_va108xx_c____REVSH <= USED 0
+;FILE utils.o
+__asm___7_utils_c____REV16 <= USED 0
+__asm___7_utils_c____REVSH <= USED 0

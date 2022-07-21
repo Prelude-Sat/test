@@ -1,0 +1,14 @@
+.\objects\gpio_drv_api.o: ..\..\driver\src\gpio_drv_api.c
+.\objects\gpio_drv_api.o: ..\..\Driver\hdr\gpio_va108xx.h
+.\objects\gpio_drv_api.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gpio_drv_api.o: ..\..\Driver\hdr\driver_gpio.h
+.\objects\gpio_drv_api.o: ..\..\Driver\hdr\driver_common.h
+.\objects\gpio_drv_api.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\gpio_drv_api.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\gpio_drv_api.o: ..\..\Common\hdr\va108xx.h
+.\objects\gpio_drv_api.o: ..\..\Common\hdr\core_cm0.h
+.\objects\gpio_drv_api.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\gpio_drv_api.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\gpio_drv_api.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\gpio_drv_api.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\gpio_drv_api.o: .\hdr\reb_board.h

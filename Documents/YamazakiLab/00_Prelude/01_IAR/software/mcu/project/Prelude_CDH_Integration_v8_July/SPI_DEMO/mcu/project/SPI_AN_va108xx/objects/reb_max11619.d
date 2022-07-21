@@ -1,0 +1,13 @@
+.\objects\reb_max11619.o: src\reb_max11619.c
+.\objects\reb_max11619.o: ..\..\Common\hdr\va108xx.h
+.\objects\reb_max11619.o: ..\..\Common\hdr\core_cm0.h
+.\objects\reb_max11619.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\reb_max11619.o: ..\..\Common\hdr\core_cmInstr.h
+.\objects\reb_max11619.o: ..\..\Common\hdr\cmsis_armcc.h
+.\objects\reb_max11619.o: ..\..\Common\hdr\core_cmFunc.h
+.\objects\reb_max11619.o: ..\..\Common\hdr\system_va108xx.h
+.\objects\reb_max11619.o: ..\..\Driver\hdr\driver_spi.h
+.\objects\reb_max11619.o: ..\..\Driver\hdr\driver_common.h
+.\objects\reb_max11619.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\reb_max11619.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\reb_max11619.o: .\hdr\reb_max11619.h

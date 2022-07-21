@@ -1,0 +1,10 @@
+.\objects\segger_rtt_syscalls_keil.o: ..\..\utilities\src\segger_rtt_syscalls_keil.c
+.\objects\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
+.\objects\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_misc.h
+.\objects\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\segger_rtt_syscalls_keil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\segger_rtt_syscalls_keil.o: ..\..\Utilities\hdr\SEGGER_RTT.h
+.\objects\segger_rtt_syscalls_keil.o: ..\..\Utilities\hdr\SEGGER_RTT_Conf.h
